@@ -5,35 +5,17 @@ CBIR WebApp System for News Recommendation Based on Professional Profile of a us
 
 2. A user is presented with a form to receive professional profile details, such as, educational details, professional experience, and skills. The entered professional details are converted in a search query by application of TFIDF on the three types of data in the professional profile details. The GoogleNews API is called using the search query to retrieve news-based search results, which may be relevant to the professional profile details of the user. The retrieved search results along with the entered professional details are displayed in another webpage. Each search results includes a title of a related news item, a brief description of the news item, and a URL of the news item.
 
-3. The folder structure of the CBIR system is as follows:
-
-Root___
-	|___
-	|    templates___
-	|		     |___
-	|			    hello.html
-	|			    index.html
-      |
-      |___ app.py (Python file)
-	|
-	|___ readme.txt (Readme text file) 
-	|
-	|___ requirements.txt (Package requirements text file) 
-	|
-	|___ screenshot1.jpg
-	|
-	|___ screenshot2.jpg
-	|
-	|___ screenshot3.jpg
-	|
-	|___ screenshot4.jpg	
-
-4. How to deploy/run the WebApp:
+3. How to deploy/run the WebApp:
 	a. On opening and running the app.py Python file on any IDE or console, a Uvicorn server starts running on http://127.0.0.1:5049
+	
 	b. To run the Webapp, open http://127.0.0.1:5049 on any browser.
+	
 	c. "index.html" webpage is rendered. Here, enter the professional profile details and press submit.
+	
 	d. The WebApp navigates to "hello.html" and displays the professional profile details and the retrieved search results including news items related to the professional profile details.
+	
 	e. Press "Back" or "Home" to go back to "index.html" and update professional profile details.
+	
 
   
 Screenshots:
