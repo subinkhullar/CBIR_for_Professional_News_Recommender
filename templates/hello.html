@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>News recommendation system using NLP</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://chromium.googlesource.com/external/github.com/twbs/bootstrap/+/v3.3.4/docs/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active">
+                        <a href="/">Home</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <h2>Real-time news based on user professional profile</h2>
+        </div>
+
+        <div class="jumbotron">
+
+            <p>
+                <h3>Real-time News Recommendation for profile - <b>{{ profile }}</b>: <br> </h3>
+                <pre>
+                <h4>
+                    {{ news }}
+                </h4>
+                </pre>
+            </p>
+            <br /> <a href="/">Back Home</a>
+        </div>
+
+        <footer class="footer">
+            <p>© Subin Khullar 2022</p>
+        </footer>
+
+    </div>
+</body>
+
+</html> 

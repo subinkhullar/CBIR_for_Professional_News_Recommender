@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>News recommendation system using NLP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://chromium.googlesource.com/external/github.com/twbs/bootstrap/+/v3.3.4/docs/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active">
+                        <a href="/">Home</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <h3 class="text-muted">Real-time news based on user professional profile</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h3>Real-time News Recommendation</h3>
+            <p class="lead"></p>
+            <p>
+                <br>
+                <form action="/hello" method="post">
+                    Enter your Educational details (Degree, University ): <br/>
+				<input type="text" name="edu_details"> <br/> <br/>
+			  Enter your most recent experience (Organization Name, Experience description): <br/>	
+				<input type="text" name="exp_details"> <br/> <br/>
+			  Enter your skills: <br/>
+				<input type="text" name="skill_details"> <br/> <br/>
+                    <input class="btn btn-lg btn-success" type="submit" name="form" value="Submit" />
+                    <br />
+
+                    <br />
+                </form>
+            </p>
+        </div>
+
+        <footer class="footer">
+            <p>© Subin Khullar 2022</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>  
